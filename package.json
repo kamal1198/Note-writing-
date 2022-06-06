@@ -1,0 +1,23 @@
+{
+  "name": "note-writing",
+  "version": "1.0.0",
+  "description": "saving notes ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamal1198/Note-writing-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamal1198/Note-writing-/issues"
+  },
+  "homepage": "https://github.com/kamal1198/Note-writing-#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
