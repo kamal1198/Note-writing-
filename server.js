@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require ('fs');
 const path = require('path');
 const app = express();
-const port = process.env.port || 3005;
+const PORT = process.env.PORT || 3005;
 
 const util = require ('util')
 const readfiles = util.promisify(fs.readFile)
@@ -49,6 +49,6 @@ app.get('*', (req, res) => {
 //     res.json(true);
 // });
 
-app.listen(port, () => {
-    console.log(`app listening on port ${port}`)
+app.listen(PORT, () => {
+    console.log(`app listening on port ${PORT}`)
   })
